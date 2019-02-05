@@ -10,11 +10,14 @@ const StyledList = styled.section`
 const ColorList = () => {
   return(
     <StyledList>
-      <Color>
-        Culoare locala.
+      <Color
+        colorCode="#ffffff"
+        colorName="alb"
+      >
       </Color>
-      <Color>
-        Culoare locala.
+      <Color
+        colorCode="#fafeaf"
+      >
       </Color>
     </StyledList>
   );

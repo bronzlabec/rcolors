@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import ColorCode from './ColorCode';
+
 const StyledColor = styled.div`
   background: magenta;
   border-bottom: 1px solid black;
@@ -10,10 +12,10 @@ const StyledColor = styled.div`
   min-height: 3rem;
 `;
 
-const Color = () => {
+const Color = (props) => {
   return(
     <StyledColor>
-      <p>#FF66AB</p>
+      <ColorCode>{ props.colorCode } </ColorCode>
       <p>roz</p>
       <p>pata de culoare</p>
       <p>buton de sters</p>
