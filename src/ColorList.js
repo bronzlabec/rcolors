@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Color from './Color';
+import ColorInput from './ColorInput';
 
 const StyledList = styled.section`
   padding: 1rem 0;
@@ -10,15 +11,9 @@ const StyledList = styled.section`
 const ColorList = () => {
   return(
     <StyledList>
-      <Color
-        colorCode="#ffffff"
-        colorName="alb"
-      >
-      </Color>
-      <Color
-        colorCode="#fafeaf"
-      >
-      </Color>
+      { /* map colors */ }
+
+      <ColorInput />
     </StyledList>
   );
 }
