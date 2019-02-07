@@ -5,7 +5,7 @@ const StyledColor = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  min-height: 3rem;
+  min-height: 3.2rem;
   padding: 0 3rem;
   input {
     margin: 0 3rem;
