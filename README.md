@@ -1,3 +1,8 @@
+- [ ] save data to cookies: reactivestack/cookies
+- [ ] create list key using a generator
+- [ ] this.setState(function) to update (push to) state
+- [X] callback function sent as props
+- [X] controlled input
 - [X] StyledComponent wrapped inside Component pattern
 - [X] styled.createGlobalStyle: *
 - [X] added 'styled-components'
